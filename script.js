@@ -8,20 +8,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
     const crosswordData = [
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: '', number: 4 }, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: ' '}, {letter: ' '}, {letter: '', number: 1}, {letter: ''}, { letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: '', number: 3}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: '', number: 5}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}],
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: '', number: 2}, {letter: ''}, {letter: ''}, {letter: ''}, { letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}],
-        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}]
-    ];
+        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ' '}, {letter: ' '}, {letter: '', number: 1 }, {letter: ' '}, {letter: ' '}, {letter: ' '}],
+        [{letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, { letter: ' '}, {letter: '', number: 2}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ' '} ],
+        [{letter: ' '}, {letter: '', number: 4}, {letter: ' '}, {letter: ' '}, { letter: ' '}, {letter: ' '}, {letter: ''}, {letter: ' '}, {letter: ' '}, {letter: ' '} ],
+        [{letter: '', number: 3}, {letter: ''}, {letter: ''}, {letter: ''}, { letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ' '},],
+        [{letter: ' '}, {letter: ''}, {letter: ' '}, {letter: ' '}, { letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, ],
+        [{letter: ' '}, {letter: ''}, {letter: ' '}, {letter: ' '}, { letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, {letter: ' '}, ],
+        [{letter: ' '}, {letter: '', number: 5}, {letter: ''}, {letter: ''}, { letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, {letter: ''}, ],
+         ];
 
     
     function createCrossword(data) {
