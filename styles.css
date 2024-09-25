@@ -47,14 +47,14 @@ body {
         font-size: 18px;
         border: 0;
         position: relative;
-        background-color: #990505;
+        background-color: #4d2525;
     }
     td .number {
         position: absolute;
         top: 2px;
         left: 2px;
         font-size: 10px;
-        color: #920909;
+        color: #493333;
     }
     .number {
         position: absolute;
@@ -70,7 +70,7 @@ body {
         border: none;
         text-align: center;
         font-size: 18px;
-        color: rgb(148, 14, 14); 
+        color: rgb(95, 49, 49); 
     }
     input {
 width: 100%;
