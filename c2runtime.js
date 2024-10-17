@@ -20328,10 +20328,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX,
 	cr.plugins_.Function,
 	cr.plugins_.Mouse,
-	cr.plugins_.TiledBg,
 	cr.plugins_.Spritefont2,
-	cr.plugins_.Touch,
+	cr.plugins_.TiledBg,
 	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
 	cr.behaviors.Pin,
 	cr.behaviors.Sin,
 	cr.behaviors.Rotate,
@@ -20399,6 +20399,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.PickDistance,
 	cr.plugins_.Mouse.prototype.exps.X,
 	cr.plugins_.Mouse.prototype.exps.Y,
-	cr.system_object.prototype.acts.GoToLayout,
-	cr.plugins_.Sprite.prototype.acts.SetVisible
+	cr.plugins_.Sprite.prototype.acts.SetVisible,
+	cr.behaviors.Fade.prototype.acts.StartFade,
+	cr.system_object.prototype.acts.GoToLayout
 ];};
